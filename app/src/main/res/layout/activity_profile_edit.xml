@@ -47,15 +47,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:paddingTop="22dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingTop="22dp">
 
 
                 <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/bg_two"
-                    >
+                    android:background="@drawable/bg_two">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -66,111 +65,107 @@
                             android:id="@+id/imageView5"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:paddingLeft="12dp"
                             android:layout_centerVertical="true"
-                            tools:srcCompat="@drawable/ic_user_avatar"
-                            />
+                            android:paddingLeft="12dp"
+                            tools:srcCompat="@drawable/ic_user_avatar" />
 
                         <EditText
                             android:id="@+id/editText2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/imageView5"
                             android:layout_centerVertical="true"
-                            android:inputType="textPersonName"
-                            android:textColor="#9C9E9C"
+                            android:layout_toRightOf="@+id/imageView5"
                             android:backgroundTint="#ECEBEC"
-                            android:text="Михаил" />
+                            android:inputType="textPersonName"
+                            android:text="Михаил"
+                            android:textColor="#9C9E9C" />
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/bg_two"
-                    >
+                    android:background="@drawable/bg_two">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/bg_two"
-                        android:layout_marginTop="12dp">
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/bg_two">
 
                         <ImageView
                             android:id="@+id/imageView6"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:paddingLeft="12dp"
                             android:layout_centerVertical="true"
-                            tools:srcCompat="@drawable/ic_user_avatar"
-                            />
+                            android:paddingLeft="12dp"
+                            tools:srcCompat="@drawable/ic_user_avatar" />
 
                         <EditText
                             android:id="@+id/editText3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/imageView6"
                             android:layout_centerVertical="true"
-                            android:inputType="textPersonName"
-                            android:textColor="#9C9E9C"
+                            android:layout_toRightOf="@+id/imageView6"
                             android:backgroundTint="#ECEBEC"
-                            android:text="Зубаткин" />
+                            android:inputType="textPersonName"
+                            android:text="Зубаткин"
+                            android:textColor="#9C9E9C" />
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/bg_two"
-                    >
+                    android:background="@drawable/bg_two">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/bg_two"
-                        android:layout_marginTop="12dp">
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/bg_two">
 
                         <ImageView
                             android:id="@+id/imageView7"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
-                            android:paddingLeft="12dp"
                             android:layout_centerVertical="true"
-                            tools:srcCompat="@drawable/ic_placeholder"
-                            />
+                            android:paddingLeft="12dp"
+                            tools:srcCompat="@drawable/ic_placeholder" />
 
                         <EditText
                             android:id="@+id/editText4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_toRightOf="@+id/imageView7"
                             android:layout_centerVertical="true"
-                            android:inputType="textPersonName"
-                            android:textColor="#9C9E9C"
+                            android:layout_toRightOf="@+id/imageView7"
                             android:backgroundTint="#ECEBEC"
-                            android:text="Россия, Москва" />
+                            android:inputType="textPersonName"
+                            android:text="Россия, Москва"
+                            android:textColor="#9C9E9C" />
 
                     </RelativeLayout>
                 </android.support.v7.widget.CardView>
+
                 <android.support.v7.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:background="@drawable/bg_two"
-                    >
+                    android:background="@drawable/bg_two">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/bg_two"
-                        android:layout_marginTop="12dp">
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/bg_two">
 
                         <ImageView
                             android:id="@+id/imageView8"
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:paddingLeft="12dp"
-                            tools:srcCompat="@drawable/ic_hastag"
-                            />
+                            tools:srcCompat="@drawable/ic_hastag" />
 
                         <EditText
                             android:id="@+id/editText5"
@@ -190,11 +185,11 @@
                     android:id="@+id/button3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="49dp"
                     android:background="@drawable/bg_two_but"
                     android:elevation="260dp"
-                    android:translationZ="34dp"
-                    android:layout_marginTop="49dp"
-                    android:text="Сохранить" />
+                    android:text="Сохранить"
+                    android:translationZ="34dp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
